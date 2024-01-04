@@ -2,7 +2,7 @@
 #include <reapi>
 
 public plugin_init () {
-	register_plugin("Reset Score", "1.0.0", "belomaxorka");
+	register_plugin("[ReAPI] Reset Score", "1.0.0", "Community");
 	register_dictionary("resetscore.txt");
 
 	register_clcmd("say /rs", "resetscore");
