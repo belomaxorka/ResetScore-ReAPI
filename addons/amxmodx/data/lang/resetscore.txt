@@ -1,0 +1,7 @@
+[en]
+RS_TAG = ^4*
+RS_SUCCESS = ^1You have reset your score!
+
+[ru]
+RS_TAG = ^4*
+RS_SUCCESS = ^1Ваш счет успешно обнулен!

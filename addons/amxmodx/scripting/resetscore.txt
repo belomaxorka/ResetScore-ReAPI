@@ -1,7 +1,0 @@
-[en]
-RS_TAG = ^4*
-RS_SUCCESS = ^1You have reset your score ^3%n^1!
-
-[ru]
-RS_TAG = ^4*
-RS_SUCCESS = ^1Ваш счёт успешно сброшен ^3%n^1!

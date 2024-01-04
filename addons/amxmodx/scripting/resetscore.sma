@@ -1,4 +1,5 @@
 #include <amxmodx>
+#include <reapi>
 
 public plugin_init () {
 	register_plugin("Reset Score", "1.0.0", "belomaxorka");
@@ -16,7 +17,7 @@ public resetscore (id) {
 	set_entvar(id, var_frags, 0.0);
 	set_member(id, m_iDeaths, 0);
 
-	client_print_color(id, print_team_default, "%l %l", "RS_TAG", "RS_SUCCESS", id);
+	client_print_color(id, print_team_default, "%l %l", "RS_TAG", "RS_SUCCESS");
 	client_cmd(id, "spk buttons/blip1.wav");
 
 	message_begin(MSG_ALL, 85);
