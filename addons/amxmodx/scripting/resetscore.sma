@@ -1,7 +1,10 @@
 #include <amxmodx>
 #include <reapi>
 
-public plugin_init () {
+#pragma semicolon 1
+
+public plugin_init()
+{
 	register_plugin("[ReAPI] Reset Score", "1.0.0", "Community");
 	register_dictionary("resetscore.txt");
 
@@ -9,8 +12,10 @@ public plugin_init () {
 	register_clcmd("say_team /rs", "resetscore");
 }
 
-public resetscore (id) {
-	if (!is_user_connected(id)) {
+public resetscore(id)
+{
+	if (!is_user_connected(id))
+	{
 		return;
 	}
 
