@@ -26,6 +26,7 @@ public resetscore(id)
 	client_cmd(id, "spk buttons/blip1.wav");
 
 	message_begin(MSG_ALL, 85);
-	write_byte(id); write_short(0); write_short(0); write_short(0); write_short(0);
+	write_byte(id);
+	write_short(0); write_short(0); write_short(0); write_short(0);
 	message_end();
 }
